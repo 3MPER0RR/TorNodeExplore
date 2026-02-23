@@ -18,22 +18,22 @@ It allows you to filter Exit/Guard nodes, sort by bandwidth, filter by country, 
 
 ```bash
 # All relays
-ruby tor_nodes.rb
+ruby TorNodeExplore.rb
 
 # Exit nodes only
-ruby tor_nodes.rb --exit
+ruby TorNodeExplore.rb --exit
 
 # Guard nodes only
-ruby tor_nodes.rb --guard
+ruby TorNodeExplore.rb --guard
 
 # Filter by country (e.g., Germany)
-ruby tor_nodes.rb --country de
+ruby TorNodeExplore.rb --country de
 
 # Top 10 relays by bandwidth
 ruby tor_nodes.rb --top 10
 
 # Aggregate statistics
-ruby tor_nodes.rb --stats
+ruby TorNodeExplore.rb --stats
 
 # Combined: Exit nodes USA, top 5, with stats
-ruby tor_nodes.rb --exit --country us --top 5 --stats
+ruby TorNodeExplore.rb --exit --country us --top 5 --stats
