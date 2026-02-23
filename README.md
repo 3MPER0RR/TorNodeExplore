@@ -13,8 +13,6 @@ It allows you to filter Exit/Guard nodes, sort by bandwidth, filter by country, 
 ## Requirements
 
 - Ruby 2.x or higher (macOS 10.15 included)
-- Internet connection to access the Onionoo API
-- No additional gems required
 
 ## Usage
 
