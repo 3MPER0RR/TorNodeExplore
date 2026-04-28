@@ -12,7 +12,7 @@ It allows you to filter Exit/Guard nodes, sort by bandwidth, filter by country, 
 
 ## Requirements
 
-- Ruby 2.x or higher (macOS 10.15 included)
+- Ruby 2.x or higher
 
 ## Usage
 
